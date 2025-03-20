@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 
     int j  = 0; // thats a local variableü
     printf("local variable j : %d \n",j);
-    int j = argc; // thats a procedure parameter
+    j = argc; // thats a procedure parameter
     printf("procedure parameter j : %d \n",j);
     printf("i : %d \n",i);
     return 0;
