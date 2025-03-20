@@ -97,6 +97,7 @@ int main(int argc, char const *argv[])
 
     // if we wanna change the value of a struct in a method we should 
     // send pointer of it
-
+    changeCalueWithPointrer(&itemFirst);
+    printf("last eleman after changing via pointer method : %d\n", itemFirst.a[999]);
     return 0;
 }
